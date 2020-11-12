@@ -46,8 +46,8 @@ if (btnK != undefined){
             break;
         }
     }
-    let numPage = document.getElementsByClassName("pager__item pager__item_kind_page")[1].innerHTML;
-    if (numPage == "11") location.href = "https://yandex.ru/";
+    let numPage = document.getElementsByClassName("pager__item pager__item_current_yes pager__item_kind_page")[0].textContent;
+    if (numPage == "10") location.href = "https://yandex.ru/";
 
     if(flag) setTimeout(()=>PageN.click(),2000);
 }else{

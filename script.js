@@ -7,6 +7,7 @@
 // @author       You
 // @match        https://yandex.ru/*
 // @match        https://xn----7sbab5aqcbiddtdj1e1g.xn--p1ai/*
+// @match        https://crushdrummers.ru/*
 // @grant        none
 // ==/UserScript==
 //
